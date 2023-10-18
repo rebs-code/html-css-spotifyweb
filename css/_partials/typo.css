@@ -8,6 +8,12 @@
     font-weight: 700;
 }
 
+/* font size */
+
 p {
     font-size: 18px;
+}
+
+.size-12px {
+    font-size: 12px;
 }

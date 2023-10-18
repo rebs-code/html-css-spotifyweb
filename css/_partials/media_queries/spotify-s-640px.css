@@ -41,9 +41,26 @@ nav .nav-top li:not(:first-child) img {
 
 /* bottom navbar */
 
+nav .nav-bottom {
+    text-align: left;
+}
+
+nav .nav-bottom hr {
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+}
+
 .nav-bottom  div {
     display: flex;
 }
+
+.nav-bottom img[alt="download icon"] {
+    margin-bottom: 0;
+    margin-right: .75rem;
+    margin-left: 0px;
+}
+
+
 
     
 }

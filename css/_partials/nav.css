@@ -43,11 +43,10 @@ nav .nav-bottom #nav-profile{
 .nav-bottom img[alt="download icon"] {
     margin: auto;
     margin-bottom: 1.25rem;
-    /* Add any other styles you want */
 }
 
-nav .nav.bottom #nav-profile img {
+nav .nav-bottom #nav-profile img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
