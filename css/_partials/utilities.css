@@ -2,9 +2,15 @@
     display: flex;
 }
 
+/* margin */
+
 
 /* media queries utilities */
 
 .no-xs {
+    display: none;
+}
+
+.no-xs-flex {
     display: none;
 }

@@ -6,7 +6,11 @@
 
 body {
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
+}
+
+main {
+    min-height: 350px;
 }
 
 img {

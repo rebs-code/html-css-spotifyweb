@@ -5,6 +5,10 @@
     display: block;
 }
 
+.no-xs-flex {
+    display: flex;
+}
+
 /* navbar */
 
 /* top navbar */

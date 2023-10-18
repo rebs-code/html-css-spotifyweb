@@ -18,10 +18,33 @@ nav .nav-top li:first-child {
 
 /* central navbar */
 
+.nav-central {
+    flex-grow: 1;  
+    padding-top: 1.875rem; 
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.nav-central .playlists {
+    overflow: auto;
+}
+
 .nav-central ul li {
     color: var(--grey);
     margin-top: 1.875rem;
+    font-size: 12px;
 }
+
+nav .nav-central h3:first-child {
+    margin-bottom: 0.9rem;
+}
+nav .nav-central i {
+    vertical-align: middle;
+}
+
+
+
+
 
 
 
@@ -29,6 +52,7 @@ nav .nav-top li:first-child {
 
 nav .nav-bottom {
     text-align: center;
+    padding-top: .3125rem;
 }
 
 nav .nav-bottom div:first-child img{
