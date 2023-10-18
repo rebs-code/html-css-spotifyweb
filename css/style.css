@@ -1,1 +1,5 @@
-@import "reset.css";
+@import "/css/_partials/reset.css";
+@import "/css/_partials/colors.css";
+@import "/css/_partials/variables.css";
+@import "/css/_partials/typo.css";
+@import "/css/_partials/footer.css";

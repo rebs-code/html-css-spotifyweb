@@ -1,0 +1,7 @@
+/* background colors */
+
+.bg-dark-grey {
+    background-color: var(--dark-grey);
+}
+
+/* text colors */
