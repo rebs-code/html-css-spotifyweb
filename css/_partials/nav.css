@@ -5,10 +5,6 @@ nav {
     padding: .3125rem .625rem .625rem .625rem;
 }
 
-nav ul.dim-white {
-    list-style: none; 
-    padding: 0; 
-}
 
 /* top navbar */
 
@@ -19,6 +15,15 @@ nav .nav-top li {
 nav .nav-top li:first-child {
     margin-bottom: 15px; 
 }
+
+/* central navbar */
+
+.nav-central ul li {
+    color: var(--grey);
+    margin-top: 1.875rem;
+}
+
+
 
 /* bottom navbar */
 
