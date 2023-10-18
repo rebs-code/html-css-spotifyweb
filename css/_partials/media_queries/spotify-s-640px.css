@@ -38,5 +38,12 @@ nav .nav-top li:not(:first-child) img {
 .nav-top li span:not(:first-child) {
     line-height: 1.25rem;
 }
+
+/* bottom navbar */
+
+.nav-bottom  div {
+    display: flex;
+}
+
     
 }
