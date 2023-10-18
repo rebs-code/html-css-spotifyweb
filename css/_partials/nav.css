@@ -5,11 +5,49 @@ nav {
     padding: .3125rem .625rem .625rem .625rem;
 }
 
-ul.dim-white {
+nav ul.dim-white {
     list-style: none; 
     padding: 0; 
 }
 
-.nav-bottom {
-    border: 1px solid white;
+/* top navbar */
+
+nav .nav-top li {
+    margin-bottom: .5rem; 
+}
+
+nav .nav-top li:first-child {
+    margin-bottom: 15px; 
+}
+
+/* bottom navbar */
+
+nav .nav-bottom {
+    text-align: center;
+}
+
+nav .nav-bottom div:first-child img{
+    width: .9375rem;
+    
+}
+
+nav .nav-bottom div:last-child{
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 50%;
+    width: 20px; 
+    height: 20px; 
+    background-color: var(--grey);
+}
+
+.nav-bottom img[alt="download icon"] {
+    margin: auto;
+    margin-bottom: 1.25rem;
+    /* Add any other styles you want */
+}
+
+nav .nav.bottom div:last-child img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

@@ -4,6 +4,10 @@
     background-color: var(--dark-grey);
 }
 
+.bg-grey {
+    background-color: var(--grey);
+}
+
 .bg-black {
     background-color: var(--black);
 }
