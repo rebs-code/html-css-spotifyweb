@@ -4,4 +4,16 @@
     background-color: var(--dark-grey);
 }
 
+.bg-black {
+    background-color: var(--black);
+}
+
 /* text colors */
+
+.white {
+    color: white;
+}
+
+.dim-white {
+    color: var(--dim-white);
+}
