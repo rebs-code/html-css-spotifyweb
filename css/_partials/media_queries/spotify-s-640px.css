@@ -1,0 +1,36 @@
+@media screen and (min-width: 640px) {
+
+/* utilities */
+.no-xs {
+    display: block;
+}
+
+/* navbar */
+
+/* top navbar */
+
+nav {
+    width: 230px;
+}
+
+nav .nav-top li {
+    display: flex; 
+}
+
+nav .nav-top li:first-child img {
+    width: 2.5rem; 
+}
+
+#logo-span {
+    line-height: 2.5rem;
+}
+
+nav .nav-top li:not(:first-child) img {
+    width: 1.25rem; 
+}
+
+.nav-top li span:not(:first-child) {
+    line-height: 1.25rem;
+}
+    
+}

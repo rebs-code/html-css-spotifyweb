@@ -1,3 +1,10 @@
 .flex {
     display: flex;
 }
+
+
+/* media queries utilities */
+
+.no-xs {
+    display: none;
+}
