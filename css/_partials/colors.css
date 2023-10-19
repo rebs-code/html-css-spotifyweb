@@ -12,6 +12,10 @@
     background-color: var(--black);
 }
 
+.bg-brand-blue {
+    background-color: var(--brand-blue);
+}
+
 /* text colors */
 
 .white {

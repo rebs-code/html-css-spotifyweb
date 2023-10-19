@@ -1,6 +1,8 @@
 main {
     padding-top: 90px; /* Adjust padding to account for the header height */
     overflow-y: auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
 }
 
 .top-element {
@@ -19,4 +21,11 @@ main {
 .top-menu ul li {
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-right: 1.5625rem;
+}
+
+/* recently played */
+
+.recently-played h2 {
+    margin-top: 1.25rem;
 }
