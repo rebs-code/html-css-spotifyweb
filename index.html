@@ -11,12 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="icon" href="img/spotify_alt_macos_bigsur_icon_189704.ico" type="image/x-icon">
 
     <title>Spotify Web</title>
 </head>
 
 <body>
-    <main class="flex">
+    <div class="upper-container flex">
         <nav class="bg-black flex">
             <!-- top navbar -->
             <div class="nav-top">
@@ -50,21 +52,23 @@
             <!-- bottom navbar -->
             <div class="nav-bottom dim-white">
                 <div><img src="img/download.svg" alt="download icon"> <span class="no-xs grey size-12px">Installa app</span></div>
-                
                 <hr class="no-xs">
                 <div>
                     <div id="nav-profile"><img src="img/profile.svg" alt="profile icon"></div>
                     <span class="white no-xs size-12px bold" id="username">John Doe</span>
-                </div>
- 
-                
-                
+                </div>  
             </div>
-  
         </nav>
-        <div class="main-container"></div>
-
-    </main>
+        <main>
+            <div class="main-container">
+                <header class="scrolling-header">
+                    <button class="white">EFFETTUA L'UPGRADE</button>
+                </header>
+            </div>
+            
+        </main>
+    </div>
+    
     <footer class="bg-dark-grey">
         
     </footer>

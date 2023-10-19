@@ -1,12 +1,16 @@
 nav {
     width: 50px;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: .3125rem .625rem .625rem .625rem;
 }
 
 
 /* top navbar */
+
+.nav-top {
+    margin-bottom: auto;
+}
 
 nav .nav-top li {
     margin-bottom: .5rem; 
@@ -42,17 +46,12 @@ nav .nav-central i {
     vertical-align: middle;
 }
 
-
-
-
-
-
-
 /* bottom navbar */
 
 nav .nav-bottom {
     text-align: center;
     padding-top: .3125rem;
+    margin-top: auto;
 }
 
 nav .nav-bottom div:first-child img{
