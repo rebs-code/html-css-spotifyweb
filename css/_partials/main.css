@@ -3,8 +3,20 @@ main {
     overflow-y: auto;
 }
 
-
 .top-element {
-    display: flex;
+    
     height: calc(100% - 90px);
+    margin-bottom: 3.125rem;
+}
+
+/* top menu */
+
+.top-menu ul {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.top-menu ul li {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
