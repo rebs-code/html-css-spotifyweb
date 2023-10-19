@@ -1,0 +1,10 @@
+@media screen and (min-width: 768px) {
+
+/* section recently played & for you & artists */
+
+.played-items .card, .for-you-items .card{
+    width: calc((100% / 4) - (3/4) * 10px); /* width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */
+    text-align: center; 
+}
+
+}

@@ -13,6 +13,10 @@ main {
 
 /* top menu */
 
+.top-menu {
+    justify-content: center;
+}
+
 .top-menu ul {
     flex-wrap: wrap;
     justify-content: space-around;
@@ -61,8 +65,8 @@ main {
     overflow: hidden;
     display: inline-block;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 145px;
+    height: 145px;
 }
 
 .artist-items .card .round-container img {
