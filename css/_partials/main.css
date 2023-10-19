@@ -1,13 +1,10 @@
 main {
-    height: calc(100% - 90px);
     padding-top: 90px; /* Adjust padding to account for the header height */
+    overflow-y: auto;
 }
 
-.upper-container {
-    height: calc(100% - 90px);
-}
 
-.upper-container {
+.top-element {
     display: flex;
-    flex-direction: row;
+    height: calc(100% - 90px);
 }

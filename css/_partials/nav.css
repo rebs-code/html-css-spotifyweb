@@ -1,8 +1,9 @@
 nav {
     width: 50px;
     flex-direction: column;
-    /* justify-content: space-between; */
     padding: .3125rem .625rem .625rem .625rem;
+    flex-shrink: 0;
+    overflow: hidden;
 }
 
 
