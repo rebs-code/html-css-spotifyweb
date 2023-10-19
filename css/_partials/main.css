@@ -24,34 +24,54 @@ main {
     margin-right: 1.5625rem;
 }
 
-/* recently played  & for you */
+/* recently played  & for you & artists */
 
 .recently-played h2 {
     margin-top: 1.25rem;
     margin-bottom: 1.875rem;
 }
 
-.for-you h2 {
+.for-you h2, .popular-artist h2 {
     margin-top: 2.5rem;
     margin-bottom: 1.2rem;
 }
 
-.for-you h2 + p {
+.for-you h2 + p, .popular-artist h2 +p {
     margin-bottom: 1.875rem;
 }
 
-.played-items, .for-you-items {
+.played-items, .for-you-items, .artist-items {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 10px;
 }
 
-.played-items .card, .for-you-items .card {
+.played-items .card, .for-you-items .card{
     width: calc((100% / 2) - 0.5 * 10px); 
     text-align: center; /* width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */
 }
 
-.played-items .card h3, .played-items .card p, .for-you-items .card h3 {
+.played-items .card h3, .played-items .card p, .for-you-items .card h3, .artist-items .card h3 {
     margin-top: 1rem;
+}
+
+/* circular shape for artist items */
+
+.artist-items .card .round-container {
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.artist-items .card .round-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.artist-items .card {
+    text-align: center;
 }
 
