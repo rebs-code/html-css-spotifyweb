@@ -69,6 +69,13 @@ nav .nav-bottom hr {
     line-height: 25px;
 }
 
+/* scrollbar in main */
+
+.scrolling-header {
+    width: calc(100% - 230px);  
+    left: 230px; /* 100% of top element minus 230px of left navbar */
+}
+
 
 
     
