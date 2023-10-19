@@ -1,12 +1,20 @@
-main {
-    padding-top: 90px; /* Adjusted padding to account for the header height */
-}
-
 .scrolling-header {
     position: fixed;
     top: 0;
     left: 50px;
-    width: 100%;
+    width: calc(100% - 50px);   /* 100% of top element minus 50px of left navbar */
     height: 90px;
     background-color: rgb(0, 0, 0, 0.5);
+    padding: 1.25rem .3125rem 1.875rem .3125rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.scrolling-header button {
+    margin-left: auto;
+    background-color: transparent;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 1px solid white;
 }
