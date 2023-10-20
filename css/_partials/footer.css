@@ -3,4 +3,7 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    justify-content: space-between;
+    padding: .625rem .625rem .625rem 1.5625rem;
 }
+

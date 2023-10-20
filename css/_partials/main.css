@@ -59,6 +59,10 @@ main {
     margin-top: 1rem;
 }
 
+.played-items .card p {
+    margin-bottom: 1rem;
+}
+
 /* circular shape for artist items */
 
 .artist-items .card .round-container {
