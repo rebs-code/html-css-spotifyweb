@@ -2,7 +2,9 @@
     display: flex;
 }
 
-/* margin */
+.upper {
+    text-transform: uppercase;
+}
 
 
 /* media queries utilities */

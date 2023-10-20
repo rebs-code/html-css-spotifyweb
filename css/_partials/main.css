@@ -84,6 +84,7 @@ main {
 
 /* hover effects */
 
+
 .card-pic:hover img {
     filter: brightness(0.5); /* Obscure the card on hover */
     transition: all 0.3s ease-in-out;
@@ -131,9 +132,12 @@ main {
     display: none;
 }
 
-/* Style for the card picture and icon container */
 .round-container {
     position: relative;
+}
+
+.top-menu li:hover {
+    filter: brightness(1.5);
 }
 
 
