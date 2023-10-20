@@ -55,8 +55,12 @@ main {
     text-align: center; /* width: (100% / n) - (((n -1) / n) * g); n = columns per row, g = gap */
 }
 
-.played-items .card h3, .played-items .card p, .for-you-items .card h3, .artist-items .card h3 {
+.played-items .card h3, .for-you-items .card h3, .artist-items .card h3 {
     margin-top: 1rem;
+}
+
+.played-items .card p {
+    margin-top: 0.5rem;
 }
 
 .played-items .card p {
@@ -104,5 +108,34 @@ main {
 .card-pic {
     position: relative;
 }
+
+/* hover effects for round container */
+
+.round-container:hover img {
+    filter: brightness(0.5); /* Obscure the card on hover */
+    transition: all 0.3s ease-in-out;
+}
+
+.round-container:hover i.fa-circle-play {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+}
+
+/* Initially hide the play icon */
+.round-container i {
+    display: none;
+}
+
+/* Style for the card picture and icon container */
+.round-container {
+    position: relative;
+}
+
+
 
 
