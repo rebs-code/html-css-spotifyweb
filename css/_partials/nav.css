@@ -84,7 +84,7 @@ nav .nav-bottom #nav-profile img {
 
 /* nav hover effects */
 
-nav .nav-top li:hover {
+nav .nav-top li span:hover {
     filter: brightness(1.5);
 }
 
@@ -94,4 +94,29 @@ nav .nav-central li:hover {
 
 nav .nav-central h3:hover {
     filter: brightness(1.5);
+} 
+
+.nav-top ul li {
+    position: relative;
+    
 }
+
+.nav-top ul li:not(:first-child)::before {
+    content: '';
+    position: absolute;
+    left: -5px; 
+    top: 2px; 
+    width: 0; 
+    height: 50%; 
+    background-color: var(--brand-green); 
+}
+
+.nav-top ul li:hover::before {
+    width: 3px; /* Adjust the width of the bar on hover as needed */
+}
+
+
+
+
+
+
