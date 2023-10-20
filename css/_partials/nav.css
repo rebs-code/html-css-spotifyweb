@@ -112,7 +112,7 @@ nav .nav-central h3:hover {
 }
 
 .nav-top ul li:hover::before {
-    width: 3px; /* Adjust the width of the bar on hover as needed */
+    width: 3px; /
 }
 
 
