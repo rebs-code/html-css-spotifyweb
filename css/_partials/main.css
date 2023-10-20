@@ -77,3 +77,32 @@ main {
     object-fit: cover;
 }
 
+
+/* hover effects */
+
+.card-pic:hover img {
+    filter: brightness(0.5); /* Obscure the card on hover */
+    transition: all 0.3s ease-in-out;
+}
+
+.card-pic:hover i.fa-circle-play {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    color: white;
+}
+
+/* Initially hide the play icon */
+.card-pic i {
+    display: none;
+}
+
+/* Style for the card picture and icon container */
+.card-pic {
+    position: relative;
+}
+
+
