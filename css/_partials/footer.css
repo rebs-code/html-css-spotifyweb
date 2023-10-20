@@ -68,4 +68,18 @@ footer {
     background-color: white; 
   }
     
+/* volume bar hover effect */
+
+  .volume-bar i {
+    display: none;
+    position: absolute;
+    top: -7px;
+    left: 15%; 
+    transform: translateX(-50%);
+    color: var(--brand-green); 
+}
+
+.volume-bar:hover .fa-circle-dot {
+    display: block;
+}
 
