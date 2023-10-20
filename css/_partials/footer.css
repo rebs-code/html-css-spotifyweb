@@ -17,12 +17,16 @@ footer i:hover {
 .footer-left {
     display: flex;
     padding-top: .9375rem ;
-    max-width: 230px;
+    width: 25%;
 }
 
 .footer-left i {
     display: block;
     margin-bottom: .25rem;
+}
+
+.footer-left img {
+ min-width: 20px;
 }
 
 .footer-left h4 {
@@ -45,6 +49,21 @@ footer i:hover {
 
 .footer-central {
     flex-grow: 1;
+    justify-content: center;
+}
+
+.footer-central .footer-central-top {
+    justify-content: space-between;
+    width: 200px;
+}
+
+.footer-central .footer-central-top i {
+    font-size: 20px;
+}
+
+.footer-central .footer-central-top i:hover {
+  color: var(--brand-green);
+  filter: brightness(1);
 }
 
 /* footer right */
@@ -55,6 +74,8 @@ footer i:hover {
     align-items: center;
     justify-content: space-around;
 }
+
+
 
 
 /* Styles for the volume bar container */
