@@ -57,11 +57,13 @@ footer i:hover:not(.fa-circle-dot) {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex-grow: 1;
 }
 
 .footer-central .footer-central-top {
     justify-content: space-between;
     width: 200px;
+    align-self: center;
 }
 
 .footer-central .footer-central-top i {
@@ -72,6 +74,14 @@ footer i:hover:not(.fa-circle-dot) {
   color: var(--brand-green);
   filter: brightness(1);
 }
+
+.footer-central-bottom {
+    min-width: 200px;
+    width: 60%;
+    align-self: center;
+} 
+
+
 
 /* footer right */
 
@@ -85,8 +95,6 @@ footer i:hover:not(.fa-circle-dot) {
 .footer-right i {
     font-size: 12px;
 }
-
-
 
 
 /* Styles for the volume bar container */
@@ -124,7 +132,7 @@ footer i:hover:not(.fa-circle-dot) {
 
 /* Styles for the track bar container */
 .track-bar {
-    min-width: 50%;
+    width: 100%;
     height: 4px; 
     background-color: var(--grey); 
     position: relative;
