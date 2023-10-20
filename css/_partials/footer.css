@@ -46,6 +46,26 @@ footer {
 
 
 .footer-right {
-    max-width: 230px;
+    width: 25%;
+    align-items: center;
+    justify-content: space-around;
 }
+
+
+/* Styles for the volume bar container */
+.volume-bar {
+    min-width: 50%;
+    height: 4px; 
+    background-color: var(--grey); 
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  /* Styles for the filled portion of the volume bar */
+  .volume-fill {
+    width: 15%;
+    height: 100%;
+    background-color: white; 
+  }
+    
 
