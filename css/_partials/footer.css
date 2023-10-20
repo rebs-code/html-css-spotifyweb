@@ -4,10 +4,10 @@ footer {
     bottom: 0;
     width: 100%;
     justify-content: space-between;
-    padding: .625rem .625rem .625rem 1.5625rem;
+    padding: .625rem .625rem 1.5625rem .625rem;
 }
 
-footer i:hover {
+footer i:hover:not(.fa-circle-dot) {
     filter: brightness(1.5);
 
 }
@@ -17,12 +17,13 @@ footer i:hover {
 .footer-left {
     display: flex;
     padding-top: .9375rem ;
-    width: 25%;
+    width: 30%;
 }
 
 .footer-left i {
     display: block;
     margin-bottom: .25rem;
+    font-size: 12px;
 }
 
 .footer-left img {
@@ -52,6 +53,12 @@ footer i:hover {
     justify-content: center;
 }
 
+.footer-central .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .footer-central .footer-central-top {
     justify-content: space-between;
     width: 200px;
@@ -70,9 +77,13 @@ footer i:hover {
 
 
 .footer-right {
-    width: 25%;
+    width: 30%;
     align-items: center;
     justify-content: space-around;
+}
+
+.footer-right i {
+    font-size: 12px;
 }
 
 
@@ -99,13 +110,47 @@ footer i:hover {
   .volume-bar i {
     display: none;
     position: absolute;
-    top: -7px;
+    top: -4px;
     left: 15%; 
     transform: translateX(-50%);
     color: var(--brand-green); 
+    
 }
 
 .volume-bar:hover .fa-circle-dot {
+    display: block;
+}
+
+
+/* Styles for the track bar container */
+.track-bar {
+    min-width: 50%;
+    height: 4px; 
+    background-color: var(--grey); 
+    position: relative;
+    border-radius: 20px;
+  }
+  
+  /* Styles for the filled portion of the volume bar */
+  .track-fill {
+    width: 15%;
+    height: 100%;
+    background-color: white; 
+  }
+
+/* track bar hover effect */
+
+.track-bar i {
+    display: none;
+    position: absolute;
+    top: -6px;
+    left: 15%; 
+    transform: translateX(-50%);
+    color: var(--brand-green); 
+    
+}
+
+.track-bar:hover .fa-circle-dot {
     display: block;
 }
 
