@@ -18,3 +18,10 @@
     border-radius: 30px;
     border: 1px solid white;
 }
+
+/* hover effects */
+
+.scrolling-header button:hover {
+    scale: 1.1;
+    margin-right: 10px;
+}
