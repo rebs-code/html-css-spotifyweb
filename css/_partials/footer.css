@@ -7,3 +7,45 @@ footer {
     padding: .625rem .625rem .625rem 1.5625rem;
 }
 
+/* footer left */
+
+.footer-left {
+    display: flex;
+    padding-top: .9375rem ;
+    max-width: 230px;
+}
+
+.footer-left i {
+    display: block;
+    margin-bottom: .25rem;
+}
+
+.footer-left h4 {
+    margin-bottom: .32rem;
+}
+
+.footer-left .cover {
+    padding-right: .4375rem;
+}
+
+.footer-left .title {
+    padding-right: .4375rem;
+}
+
+.footer-left .cover {
+    width: 20%;
+}
+
+/* footer central */
+
+.footer-central {
+    flex-grow: 1;
+}
+
+/* footer right */
+
+
+.footer-right {
+    max-width: 230px;
+}
+
