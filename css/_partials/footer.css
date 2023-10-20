@@ -79,8 +79,13 @@ footer i:hover:not(.fa-circle-dot) {
     min-width: 200px;
     width: 60%;
     align-self: center;
+    align-items: center;
 } 
 
+.footer-central-bottom span {
+ margin-right: 10px;
+ margin-left: 10px;
+} 
 
 
 /* footer right */
