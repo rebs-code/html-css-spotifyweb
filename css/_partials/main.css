@@ -136,8 +136,34 @@ main {
     position: relative;
 }
 
-.top-menu li:hover {
+.top-menu li:hover a {
     filter: brightness(1.5);
+}
+
+
+.top-menu li {
+    position: relative;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.top-menu li::before {
+    content: '';
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 4px;
+    background-color: var(--brand-green); 
+    transition: width 0.2s; 
+    
+}
+
+.top-menu li:hover::before {
+    width: 50%;
+    transition: width 0.2s; 
 }
 
 
