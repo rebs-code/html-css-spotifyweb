@@ -7,6 +7,11 @@ footer {
     padding: .625rem .625rem .625rem 1.5625rem;
 }
 
+footer i:hover {
+    filter: brightness(1.5);
+
+}
+
 /* footer left */
 
 .footer-left {
