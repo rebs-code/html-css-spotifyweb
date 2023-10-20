@@ -75,8 +75,5 @@ nav .nav-bottom hr {
     width: calc(100% - 230px);  
     left: 230px; /* 100% of top element minus 230px of left navbar */
 }
-
-
-
-    
+  
 }
