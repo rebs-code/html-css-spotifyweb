@@ -17,7 +17,7 @@ footer i:hover:not(.fa-circle-dot) {
 .footer-left {
     display: flex;
     padding-top: .9375rem ;
-    width: 30%;
+    width: 230px;
 }
 
 .footer-left i {
@@ -92,7 +92,7 @@ footer i:hover:not(.fa-circle-dot) {
 
 
 .footer-right {
-    width: 30%;
+    width: 230px;
     align-items: center;
     justify-content: space-around;
 }
