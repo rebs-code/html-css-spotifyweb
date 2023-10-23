@@ -6,6 +6,7 @@ This is a project to create a simplified clone of the Spotify web interface usin
 
 ## Mobile-First Approach
 This project follows a mobile-first approach, ensuring that the user interface is designed and optimized for mobile devices first. It provides a seamless user experience on smartphones, tablets, and desktops.
+
 ![image](https://github.com/rebs-code/html-css-spotifyweb/assets/80966551/8bc6c295-d233-4cf2-b416-d6e6f2dd5503)
 
 Media Queries
